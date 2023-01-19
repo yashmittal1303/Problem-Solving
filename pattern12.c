@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+    int i=0,j=0;
+    for(i=6;i>=1;i--)
+    {
+        for(j=1;j<=6;j++)
+        {
+            if(j<=i)
+            printf("%d",j);
+            else
+            printf(" ");
+        }
+        for(j=5;j>=1;j--)
+        {
+            if(j<=i)
+            printf("%d",j);
+            else
+            printf(" ");
+
+        }
+        printf("\n");
+    }
+}
